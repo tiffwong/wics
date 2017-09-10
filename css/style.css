@@ -1,0 +1,36 @@
+:root {
+    --red:  #d40202;
+    --gold: #FFC600;
+    --jade: #00d0db;
+}
+
+body { height: 1000px; }
+
+a {
+    background: inherit !important;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+#navbar .navbar-nav {
+    text-align: center;
+    width: 100%;
+}
+
+#navbar .navbar-nav li {
+    display: inline-block;
+    float: none;
+}
+
+#navbar .navbar-nav a {
+    font-weight: bold;
+    padding: 30px 15px;
+}
+
+#navbar .navbar-nav img {
+    padding: 30px 15px;
+    width: 30%;
+}
+
+
+
