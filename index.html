@@ -1,239 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Customer Profile Screen</title>
+	<title>China House</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/custom.css" type="text/css">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="js/custom.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-	<br>
-	<div class="container-fluid">
-		<div class="panel panel-default">
-			<div class="panel-body todo">HEADER</div>
-		</div>
+    <nav id="navbar" class="navbar" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">menu</a></li>
+                    <img src="images/logo.png"/>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<div class="container-fluid" id="home">
+	    <div class="carousel">
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+        </div>
+	    
 	</div>
-	<nav class="navbar navbar-default" style="font-size: 13px;">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand">
-					<span class="fa fa-circle" style="color: #F26529;"></span>
-					<span class="fa fa-circle" style="color: #385469;"></span>
-					<span class="fa fa-circle" style="color: #8AB5AB;"></span>
-					<span class="fa fa-circle" style="color: #A3A29D;"></span>
-				</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Logout</a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-8">
-				<h2>
-					<span class="fa fa-check-circle" data-toggle="tooltip" 
-						  title="Active since 01/01/2016" style="color: #8AB5AB;"></span>
-					<span style="color: #385469;">Jon Snow</span>
-				</h2>
-			</div>
-			<div class="col-xs-4" style="margin-top: 20px;">
-				<div class="input-group">
-		  			<input type="text" class="form-control" placeholder="Search for a customer">
-		  			<span class="input-group-btn">
-						<button class="btn btn-default" type="button">
-							<span class="fa fa-fw fa-search"></span>
-						</button>
-		  			</span>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-3">
-				<p><img class="profile img-thumbnail" src="images/user-placeholder.svg"></p>
-				<!-- Addresses -->
-				<p style="margin-top: 15px;">
-					<span class="fa fa-fw fa-home"></span>
-					&nbsp;Castle Black 
-					<br>
-					<span class="fa-margin"></span>
-					&nbsp;The Wall, Winterfell 11111
-				</p>
-				<!-- Emails -->
-				<p>
-					<span class="fa fa-fw fa-envelope-o"></span>
-					&nbsp;jon.snow@nightswatch.com
-				</p>
-				<!-- Phone Numbers -->
-				<p>
-					<span class="fa fa-fw fa-phone"></span>
-					&nbsp;111-111-1100 <span style="color: #A3A29D;">(Home)</span>
-					<br>
-					<span class="fa-margin"></span>
-					&nbsp;111-111-1001 <span style="color: #A3A29D;">(Mobile)</span>
-				</p>
-				<!-- Gender -->
-				<p>
-					<span class="fa fa-fw fa-mars"></span>
-					&nbsp;Male
-				</p>
-				<!-- Personality Traits -->
-				<div class="panel panel-default" style="margin-top: 15px;">
-					<div class="panel-body todo">
-						<br>
-						Insert personality traits
-						<br>&nbsp;
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-9">
-				<!-- Purchase Metrics -->
-				<br>
-				<div class="row" style="text-align: center;">
-					<div class="col-xs-3">
-						<span class="metrics-stat">0.01/</span>
-						<span style="font-size: 18px; color: #F26529;">month</span>
-						<br>
-						<span class="metrics-description">FREQUENCY</span>
-					</div>
-					<div class="col-xs-3">
-						<span class="metrics-stat">2</span>
-						<br>
-						<span class="metrics-description">AVERAGE ORDER SIZE</span>
-					</div>
-					<div class="col-xs-3">
-						<span class="metrics-stat">$100</span>
-						<br>
-						<span class="metrics-description">LIFETIME VALUE</span>
-					</div>
-					<div class="col-xs-3">
-						<span class="metrics-stat">10</span>
-						<br>
-						<span class="metrics-description">LIFETIME PURCHASES</span>
-					</div>
-				</div>
-				<!-- Customer Score & Score History/Trend -->
-				<p><br></p>
-				<div class="panel panel-default">
-					<div class="panel-body todo">
-						<br>
-						Insert customer score and score history/trend
-						<br>&nbsp;
-					</div>
-				</div>
-				<!-- Purchase History -->
-				<p></p>
-				<div data-toggle="collapse" data-target="#purchases">
-					<span class="fa fa-fw fa-caret-down rotate"></span>
-					<b style="color: #385469;">Purchase History</b>
-				</div>
-				<div id="purchases" class="collapse in fa-margin">
-					<table class="table table-bordered table-hover" style="margin-top: 5px;">
-						<thead>
-							<tr>
-								<th style="color: #8ab5ab; width: 20%;">Date</th>
-								<th style="color: #8ab5ab; width: 60%;">Description</th>
-								<th style="color: #8ab5ab; width: 20%; text-align: right;">Amount</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>01/10/2016</td>
-								<td>Haircut</td>
-								<td style="text-align: right;">$8.10</td>
-							</tr>
-							<tr>
-								<td>01/01/2016</td>
-								<td>Boots</td>
-								<td style="text-align: right;">$10.00</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<p></p>
-				<!-- Reward History -->
-				<div data-toggle="collapse" data-target="#rewards">
-					<span class="fa fa-fw fa-caret-down rotate"></span>
-					<b style="color: #385469;">Reward History</b>
-				</div>
-				<div id="rewards" class="collapse in fa-margin">
-					<table class="table table-bordered table-hover" style="margin-top: 5px;">
-						<thead>
-							<tr>
-								<th style="color: #8ab5ab; width: 20%;">Date</th>
-								<th style="color: #8ab5ab; width: 60%;">Description</th>
-								<th style="color: #8ab5ab; width: 20%; text-align: right;">Amount</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>01/11/2016</td>
-								<td>N/A</td>
-								<td style="text-align: right;">$0.10</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<p></p>
-				<!-- Activity History -->
-				<!-- TODO: Add time activities occurred -->
-				<div data-toggle="collapse" data-target="#activities">
-					<span class="fa fa-fw fa-caret-down rotate"></span>
-					<b style="color: #385469;">Activity History</b>
-				</div>
-				<div id="activities" class="collapse in fa-margin">
-					<table class="table table-bordered table-hover" style="margin-top: 5px;">
-						<thead>
-							<tr>
-								<th style="color: #8ab5ab; width: 20%;">Date</th>
-								<th style="color: #8ab5ab; width: 80%;">Description</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>01/11/2016</td>
-								<td>Redeemed reward for $0.11</td>
-							</tr>
-							<tr>
-								<td>01/10/2016</td>
-								<td>Earned reward for $0.03</td>
-							</tr>
-							<tr>
-								<td>01/01/2016</td>
-								<td>Earned reward for $0.08</td>
-							</tr>
-							<tr>
-								<td>01/01/2016</td>
-								<td>Visited website</td>
-							</tr>
-							<tr>
-								<td>01/01/2016</td>
-								<td>Activated account</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-	</div>
-	<br>
-	<div class="container-fluid">
-		<div class="panel panel-default">
-			<div class="panel-body todo">FOOTER</div>
-		</div>
-	</div>
+	
+	<!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
