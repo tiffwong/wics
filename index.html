@@ -1,47 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>China House</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Drexel Women in Computing Society</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav id="navbar" class="navbar" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="fa fa-bars"></span>
-                </button>
+    <header role="banner">
+        <a href="index.html"><img id="logo-main" src="img/logo.png" width="200" alt="Drexel Women in Computing Society"></a>
+        <nav id="navbar-primary" class="navbar navbar-fixed-top nav-justified" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand navbar-primary-collapse">
+                        <a href="index.html"><img id="logo-main" src="img/logo.png" width="200" alt="Drexel Women in Computing Society"></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#events">Events</a></li>
+                        <li><a class="nav-link" href="#mentorship">Mentorship</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#resources">Resources
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="charter.html">Charter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div class="container-fluid" style="margin: -200px auto 75px; padding: 0px;">
+        <img src="img/phicwic.jpg" width="100%">
+    </div>
+    <div class="container">
+        <div class="centered">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-10">
+                        <h2 id="about" class="link"><span>About</span></h2>
+                        <p>Our purpose is to support, recruit, and retain women pursuing a degree in the broad field of computing. WiCS will enhance communication among women in computing through informal dinners and gatherings, speakers, field trips, and arrange for tutoring and mentoring for its members as needed. The ultimate goal is to empower women in computer fields to succeed and thrive in the Drexel community and beyond.</p>
+                        <p>WiCS is primarily a social group located at <a href="http://drexel.edu/">Drexel University</a> in Philadelphia, PA. We explore methods for the retention of women in our computing programs while having a fun time. We are an official student chapter of <a href="https://women.acm.org">ACM-W</a>.</p>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>
+                <hr>
             </div>
-            <div class="navbar-collapse collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">menu</a></li>
-                    <img src="images/logo.png"/>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">info</a></li>
-                </ul>
+            <div class="content">
+                <div class="row">
+                    <div class="col-xs-0 col-sm-1"></div>
+                    <div class="col-xs-12 col-sm-10">
+            			<h2 id="events" class="link"><span>Events</span></h2>
+            			<iframe frameborder="0" height="600" width="100%" scrolling="no" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;src=drexelcswomen%40gmail.com&amp;ctz=America%2FNew_York" style="border: 0;"></iframe>
+    			    </div>
+    			</div>
+                <br><br>
+                <hr>
+			</div>
+			<div class="content">
+			    <div class="row">
+                    <div class="col-xs-1"></div>
+                        <div class="col-xs-10">
+            			<h2 id="mentorship" class="link"><span>Mentorship</span></h2>
+                        <p style="text-align: center;">Applications for mentorship for this year are closed, please check back in the fall!</p>
+                        </div>
+                </div>
+                <hr>
+			</div>
+            <div class="content">
+                <h2 id="contact" class="link"><span>Contact</span></h2>
+                <p class="centered">For the 2017-2018 Year:
+                    <br>General Contact: <a href="mailto:drexelcswomen@gmail.com">drexelcswomen@gmail.com</a>
+                </p>
+
+                <h3 id="contact1">Officers</h3>
+                <div class="row">
+                    <div class="col-xs-0 col-sm-2"></div>
+                    <div class="col-xs-12 col-sm-2">
+                        <b>President</b>
+                        <br>Safa Aman
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <b>Vice President of Public Relations</b>
+                        <br>Merlin Cherian
+                    </div>
+                    <div class="col-xs-12 col-sm-2">
+                        <b>Treasurer</b>
+                        <br>Sita Robinson
+                    </div>
+                    <div class="col-xs-0 col-sm-2"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xs-0 col-sm-2"></div>
+                    <div class="col-xs-12 col-sm-2">
+                        <b>Secretary</b>
+                        <br>Aldercy Laijin Wang
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <b>Event Coordinator</b>
+                        <br>Jennifer Bondarchuk
+                    </div>
+                    <div class="col-xs-12 col-sm-2">
+                        <b>Graduate Liaison</b>
+                        <br>Leah Kulp
+                    </div>
+                    <div class="col-xs-0 col-sm-2"></div>
+                </div>
+                <br>
+                <h3 id="contact2">Advisors</h3>
+                Rachel Greenstadt
+                <br>
+                Gabriela Marcu
             </div>
-        </div>
-    </nav>
-	<div class="container-fluid" id="home">
-	    <div class="carousel">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
-        </div>
-	    
-	</div>
-	
-	<!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-	<script src="js/scripts.js"></script>
+		</div>
+    </div>
+    <footer>
+        <span class="social-media">
+            <a href="https://www.facebook.com/groups/drexelwics/"><i class="fa fa-fw fa-facebook"></i></a>
+            <a href="https://www.instagram.com/drexelwics/?hl=en"><i class="fa fa-fw fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/groups/4646174"><i class="fa fa-fw fa-linkedin"></i></a>
+        </span>
+        <br>
+        © 2018 by Drexel Women in Computing Society
+    </footer>
 </body>
 </html>
